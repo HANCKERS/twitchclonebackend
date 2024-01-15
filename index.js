@@ -15,7 +15,7 @@ import { registerSocketServer } from "./src/io/io.js";
 
 dotenv.config();
 
-const PORT = process.env.PORT || process.env.API_PORT;
+const PORT = process.env.PORT || process.env.API_PORT || 5002;
 
 const app = express();
 
